@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="titre">JEU DU SIMON</div>
+        <div class="simon">
+            <div class="top">
+                <div id="green" class="button green" audio-src="assets/sounds/son1.mp3"></div>
+                <div id="red" class="button red" audio-src="assets/sounds/son2.mp3"></div>
+            </div>
+            <div class="center">
+                <div id="startBtn"></div>
+                <div id="count"></div>
+            </div>
+            <div class="bottom">
+                <div id="yellow" class="button yellow" audio-src="assets/sounds/son4.mp3"></div>
+                <div id="blue" class="button blue" audio-src="assets/sounds/son3.mp3"></div>
+            </div>
+        </div>
+        <div id="turn"></div>
+        <div id="result"></div>
+        <ul id="regles"> <center><u>Règles du jeu :</u></center>
+            <li>Appuyez sur le bouton vert <img src="assets/images/green_button.png" width="25"> pour Demarrer le jeu</li>
+            <li>L'ordinateur va choisir une couleur aléatoirement</li>
+            <li>Cliquez sur la même couleur que celle choisi par l'ordinateur</li>
+            <li>L'ordinateur choisit de nouveau une couleur en reprenant l'/les ancienne(s)</li>
+            <li>Répétez la chaine à l'identique</li>
+        </ul>
+    </div>
+    <script src="js/Key.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

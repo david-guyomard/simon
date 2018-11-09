@@ -1,0 +1,96 @@
+.container {
+    width: 100vw;
+}
+#titre {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#regles {
+    font-size: 30px;
+    margin-top: 30px;
+}
+#regles li {
+    margin-left : 50px;
+}
+#regles center {
+    margin: 20px;
+}
+#result{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+#turn {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.simon {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: url('../assets/images/simonBg.png');
+    position: relative;
+}
+.simon .top, .simon .bottom{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.simon .button{
+    width: 200px;
+    height: 200px;
+    cursor:pointer;
+}
+.simon .center{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    border-radius: 150px;
+}
+#count {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50px;
+    border-radius: 20px;
+    bottom: 46px;
+    color: white;
+}
+
+#startBtn{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 57px;
+    border-radius: 20px;
+    bottom: 46px;
+    cursor: pointer;
+}
+.simon .top .green{
+    background-image: url('../assets/images/green.png');
+}
+.simon .top .green.lighted{
+    background-image: url('../assets/images/l_green.png');
+}
+.simon .top .red{
+    background-image: url('../assets/images/red.png');
+}
+.simon .top .red.lighted{
+    background-image: url('../assets/images/l_red.png');
+}
+.simon .bottom .yellow{
+    background-image: url('../assets/images/yellow.png');
+}
+.simon .bottom .yellow.lighted{
+    background-image: url('../assets/images/l_yellow.png');
+}
+.simon .bottom .blue{
+    background-image: url('../assets/images/blue.png');
+}
+.simon .bottom .blue.lighted{
+    background-image: url('../assets/images/l_blue.png');
+}
